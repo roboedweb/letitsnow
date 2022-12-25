@@ -1,0 +1,52 @@
+body {
+    background-image: url(christmas.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    color: lightgray;
+    text-shadow: 3px 5px 4px gold;
+    font-size: 50px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap {
+    background-image: url(snowflake1.png), url(snowflake2.png), url(snowflake3.png);
+    animation: snowanim 10s infinite linear; 
+}
+@keyframes snowanim {
+    from {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    to {
+        background-position: 200px 1000px, 500px 500px, 800px 1200px;
+    }
+}
+#garland {
+    position: fixed;
+    top: 0;
+    left: kmj0;
+    background-image: url(christmas-lights.png);
+    width: 100%;
+    height: 36px;
+    overflow: hidden;
+}
+.garland_1 {
+    background-position: 0px 0px;
+}
+.garland_2 {
+    background-position: 0px -36px;
+}
+.garland_3 {
+    background-position: 0px -72px;
+}
+.garland_4 {
+    background-position: 0px -108px;
+}
