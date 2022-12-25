@@ -4,6 +4,7 @@ body {
     height: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .container {
     width: 100%;
@@ -16,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .wrap {
     background-image: url(snowflake1.png), url(snowflake2.png), url(snowflake3.png);
